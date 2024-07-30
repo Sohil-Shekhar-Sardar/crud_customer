@@ -1,0 +1,45 @@
+name: crud_customer_assignment
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  connectivity_plus: ^4.0.2
+  flutter_easyloading: ^3.0.5
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  http: ^1.1.0
+  lottie: ^2.6.0
+  shimmer: ^3.0.0
+  sizer: ^2.0.15
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
+  fonts:
+    - family: GoogleSansTextRegular
+      fonts:
+        - asset: fonts/GoogleSansText-Regular.ttf
+    - family: GoogleSansTextMedium
+      fonts:
+        - asset: fonts/GoogleSansText-Medium.ttf
+    - family: GoogleSansTextBold
+      fonts:
+        - asset: fonts/GoogleSansText-Bold.ttf
